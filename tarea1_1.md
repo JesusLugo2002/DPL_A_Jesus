@@ -50,6 +50,33 @@ git checkout main
 git merge v0.2
 ```
 
+7. Merge con conflicto:
+<div align=center>
+    <img src="./img/merge-conflict.png" alt="conflicto"/>
+</div>
+```
+git checkout main
+git merge v0.2
+git commit -m "Se soluciona conflicto aceptando cambios de la rama v0.2"
+```
+
+8. Listar ramas sin merge y con merge:
+```
+git branch
+git branch --merged
+```
+__Resultado de ambas listas__:
+```
+* main
+  v0.2
+```
+
+9. Reemplazar rama v0.2 por un tag v0.2:
+```
+git tag v0.2
+git branch -d v0.2
+```
+
 ## Uso del .gitignore
 
 <div align=center>
