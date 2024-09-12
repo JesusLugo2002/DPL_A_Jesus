@@ -25,4 +25,18 @@ git add .
 git commit -m "Commit inicial"
 git push
 ```
+
+3. Creación de tag:
+```
+```
+
+## Uso del .gitignore
+
+<div align=center>
+    <h3>Directorio con los archivos por ocultar</h3>
+    <img src="./img/directorio-gitignore.png" alt="directorio"/>
+    <h3>Contenido del fichero .gitignore</h3>
+    <img src="./img/gitignore-content.png" alt="gitignore"/>
+</div>
+
 </div>
