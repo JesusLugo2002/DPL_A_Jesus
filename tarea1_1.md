@@ -33,6 +33,12 @@ git push
 git tag v0.1
 ```
 
+4. Creación y uso de una rama nueva:
+```
+git branch v0.2
+git checkout v0.2
+```
+
 ## Uso del .gitignore
 
 <div align=center>
