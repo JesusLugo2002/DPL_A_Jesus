@@ -44,6 +44,12 @@ git checkout v0.2
 git push origin v0.2
 ```
 
+6. Merge directo:
+```
+git checkout main
+git merge v0.2
+```
+
 ## Uso del .gitignore
 
 <div align=center>
