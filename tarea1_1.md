@@ -39,6 +39,11 @@ git branch v0.2
 git checkout v0.2
 ```
 
+5. Creación de la rama remota:
+```
+git push origin v0.2
+```
+
 ## Uso del .gitignore
 
 <div align=center>
